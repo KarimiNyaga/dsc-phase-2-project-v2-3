@@ -22,7 +22,7 @@ Morgage valuers are facing challenges of optimizing pricing strategies for prope
 
 ## Data understanding
 
-We used housing  data was collected from :
+We used housing  data collected from :
 
 * King County House Sales dataset-kc_house_data.csv.
 
@@ -106,6 +106,25 @@ We have developed and evaluated several mmachine learning models to predict pric
 
 * For maximum returns- Mipaka should look to develop new housing developments on the Western Side of King County. Based on our models, the prices towards the East show a slight decrease in price, therefore being less likely to bring in profits. However, the company should note that price prediction based on location is very sensitive to local variations, prices are only similar within a small distance of each other.
 
+## Next steps
+
+* More EDA on factors that might affect house prices Our best perfroming model accounted for less than 70% of the variance in sales. Further exploration should be done on factors not in the dataset that might affect house prices.
+
+* Additional direct market research from real estate stakeholders. This direct feedback will enhance the models by providing key dimensions missing in the dataset that might help explain variance in house sales.
+
 
 ## Conclusion
 This analysis equips Mipaka with data-driven insights and predidctive modeling strategies to make strategic decisions in the competitive real estate industry. By focusing on popular ways to determine fair pricing using factors like sqft living, age, grade, condition to improve its profit maximization.
+
+
+## Repository Structure
+
+```
+
+├── data
+├── images
+├── README.md
+├── kc_house_data.csv
+├── Real estate Price prediction using Multiple linear regression Presentation.pdf
+└── Real estate Price prediction using Multiple linear regression.ipynb
+```
